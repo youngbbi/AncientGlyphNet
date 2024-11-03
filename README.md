@@ -1,5 +1,5 @@
 # AncientGlyphNet
-![image-20241103164332181](.\README.assets\image-20241103164332181.png)
+![image-20241103164332181](README.assets\image-20241103164332181.png)
 
 ## Install Using Conda
 
