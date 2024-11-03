@@ -111,10 +111,10 @@ def save_depoly(model, input, save_path):
 
 def init_args():
     import argparse
-    parser = argparse.ArgumentParser(description='DBNet.pytorch')
-    parser.add_argument('--model_path', default=r'D:\\code\\paper_code\\DBNet\\v5\\tools\\output\\DBNet_resnet18_FPN_DBHead\\checkpoint\\model_best.pth', type=str)
-    parser.add_argument('--input_folder', default='D:\\code\\paper_code\\DBNet\\v5\\test\\input', type=str, help='img path for predict')
-    parser.add_argument('--output_folder', default='D:\\code\\paper_code\\DBNet\\v5\\test\\output', type=str, help='img path for output')
+    parser = argparse.ArgumentParser(description='')
+    parser.add_argument('--model_path', default=r'', type=str)
+    parser.add_argument('--input_folder', default='', type=str, help='img path for predict')
+    parser.add_argument('--output_folder', default='', type=str, help='img path for output')
     parser.add_argument('--thre', default=0.3,type=float, help='the thresh of post_processing')
     parser.add_argument('--polygon', action='store_true', help='output polygon or box')
     parser.add_argument('--show', action='store_true', help='show result')
